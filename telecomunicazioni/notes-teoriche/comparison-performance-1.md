@@ -1,0 +1,9 @@
+| .                | PAM                                              | QAM                                                       | PSK                                                   | orth               | biorth             |
+| ---------------- | ------------------------------------------------ | --------------------------------------------------------- | ----------------------------------------------------- | ------------------ | ------------------ |
+| $I$              | 1                                                | 2                                                         | 2                                                     | $M$                | $M/2$              |
+| $B_{\text{min}}$ | $1/2T$                                           | $1/T$                                                     | $1/T$                                                 | $M/2T$             | $M/4T$             |
+| $E_{s}$          | ${\displaystyle E_{h} \frac{M^{2}-1}{3}}$        | ${\displaystyle E_{h} \frac{M-1}{3}}$                     | $E_{h}/2$                                             | $E_{h}$            | $E_{h}$            |
+| $d_{\text{min}}$ | $2C\sqrt{ E_{h} }$                               | $C\sqrt{ 2E_{h} }$                                        | ${\displaystyle C\sqrt{ 2E_{h} }\sin \frac{\pi}{M} }$ | $C\sqrt{ 2E_{s} }$ | $C\sqrt{ 2E_{s} }$ |
+| $P_{e}$          | ${\displaystyle 2\left( 1-\frac{1}{M} \right)Q}$ | ${\displaystyle 4\left( 1-\frac{1}{\sqrt{ M }} \right)Q}$ | $\leq 2Q$                                             | $\leq(M-1)Q$       | $\simeq (M-2)Q$    | 
+
+${\displaystyle Q=Q\left( \frac{d_{\text{min}}}{2\sigma} \right) }$, $\sigma^{2}=N_{0}/2$
